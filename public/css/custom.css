@@ -11,12 +11,17 @@
   background: rgba(65, 147, 191, 0.4);
 }
 
-@media screen and (max-width: 767px) { 
+.service-box {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 410px) { 
   
   .learn-more {
     margin-left: 0px;
     margin-top: 20px;
   }
+  .desktop { display: none }
 
-   
 }
