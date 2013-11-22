@@ -18,6 +18,7 @@ h6 {
     font-weight: 400;
 }
 .space { padding: 90px 0 }
+.process-space { padding: 150px 0 }
 
 
 /* HELPERS
@@ -590,14 +591,19 @@ p.meta a {
 /* CLIENTS LOGOS SECTION
    ================================================== */
 #clients {
-    background: url("../images/clients.jpg") center center fixed;
+    background: url("../images/clients.jpg");
     -webkit-background-size: cover; -moz-background-size:cover;
     -o-background-size: cover; background-size:cover;
 }
 #clients ul li img {
     height: auto;
     margin: 0 auto;
-    width: 150px;
+    width: 250px;
+}
+
+#clients h3 {
+    padding-bottom: 5px;
+    padding-top: 0;
 }
 
 
@@ -885,7 +891,10 @@ textarea {
     webkit-box-shadow: none;
 }
 
-#cta-contact { background: #110A20 }
+#cta-contact {
+    background: #FFF;
+    padding: 130px 0;
+}
 
 
 /* FOOTER
@@ -893,12 +902,14 @@ textarea {
 #footer {
     background: #110A20;
     color: #acb2b6;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+    /*padding-top: 20px;*/
 }
 #footer span {
     color: #fff;
     font-size: 25px;
 }
+#footer .btm-footer { margin-top: 55px }
 #footer .btm-footer { margin-top: 55px }
 #footer .btm-footer ul li a { color: #fff }
 
