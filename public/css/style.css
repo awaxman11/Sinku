@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
     color: #acb2b6;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.428571429;
 }
@@ -29,8 +29,8 @@ h6 {
 .p-top-50 { padding-top: 50px }
 .p-btm-0 { padding-bottom: 0 }
 .f-800 { font-weight: 800 }
-.f-green { color: #95ce53 }
-.f-green { color: #4193BF }
+.f-green { color: #95ce53 } /*GREEN*/
+.f-green { color: #4193BF } /*BLUE*/
 .f-white { color: #fff }
 .title-12 {
     color: #acb2b6;
@@ -271,7 +271,7 @@ img.keep-original {
 
 /* FEATURES / FULL SERVICE LIST SECTION
    ================================================== */
-#features {
+#process {
     background: url("../images/background5.1.jpg") center center;
     -webkit-background-size: cover; -moz-background-size:cover;
     -o-background-size: cover; background-size:cover;
@@ -281,17 +281,19 @@ img.keep-original {
     min-height: 220px;
 }
 .features-box {
-    background-color: #000;
+    background-color: #FFF;
     min-height: 220px;
     padding: 35px 20px;
     text-align: center;
 }
 .features-box h3 {
-    color: #fff;
-    font-size: 14px;
+    color: #4193BF;
+    font-size: 16px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 .features-box i {
+    color: #4193BF;
     font-size: 45px;
     font-weight: 300;
 }
