@@ -18,7 +18,9 @@ h6 {
     font-weight: 400;
 }
 .space { padding: 90px 0 }
-.process-space { padding: 150px 0 }
+.space-why {padding: 120px 0; border-top: 1px solid #eee}
+.process-space { padding: 120px 0 }
+.process-margin { margin-top: 50px;}
 
 
 /* HELPERS
@@ -30,8 +32,9 @@ h6 {
 .p-top-50 { padding-top: 50px }
 .p-btm-0 { padding-bottom: 0 }
 .f-800 { font-weight: 800 }
-.f-green { color: #95ce53 } /*GREEN*/
+.f-green2 { color: #95ce53 } /*GREEN*/
 .f-green { color: #4193BF } /*BLUE*/
+.f-brown { color: #A5998E } /*BROWN*/
 .f-white { color: #fff }
 .title-12 {
     color: #acb2b6;
@@ -595,13 +598,25 @@ p.meta a {
     -webkit-background-size: cover; -moz-background-size:cover;
     -o-background-size: cover; background-size:cover;
 }
-#clients ul li img {
+
+#clients2 {
+    background: #4397C4;
+}
+
+#clients2 {
+    background: url("../images/background4.jpg");
+    -webkit-background-size: cover; -moz-background-size:cover;
+    -o-background-size: cover; background-size:cover;
+}
+}
+
+#clients ul li img, #clients2 ul li img {
     height: auto;
     margin: 0 auto;
     width: 250px;
 }
 
-#clients h3 {
+#clients h3, #clients2 h3 {
     padding-bottom: 5px;
     padding-top: 0;
 }
